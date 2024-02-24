@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+.BackgroundImage{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgb(96, 5, 158) 30%,
+    rgb(131, 169, 214) 70%,
+    rgba(255, 255, 255) 50%,
+    rgba(255,255,255)
+  );
+} 
+.mark1{
+  position: relative;
+  left: -40px;
+  color: green;
+}
+.left_arrow{
+  font-size: 35px;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+}
+/* .nav-link {
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px;
+  color: grey;
+}
+
+.nav-link.active {
+  background-color: blue;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  color: white;
+} */

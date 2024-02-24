@@ -1,0 +1,29 @@
+//   function SubmitHandler(e){
+//     e.preventDefault()
+//     if (formData.fname==""&& formData.lname=="" && formData.email=="" && formData.pno=="" && formData.password=="" && formData.confirmPwd=="" ){
+//         e.target.style.border='1px solid red'
+//     }else if(formData.fname!==""&& formData.lname!=="" && formData.email!=="" && formData.pno!=="" && formData.password!=="" && formData.confirmPwd!==""){
+//          navigate('/business')
+//     }
+//   }
+
+// function SubmitHandler(e) {
+//     e.preventDefault();
+    
+//     // Check if any field is empty
+//     const isAnyFieldEmpty = Object.values(formData).some(value => value === "");
+  
+//     if (isAnyFieldEmpty) {
+//       // If any field is empty, apply border style to individual input fields
+//       for (const field in formData) {
+//         if (formData[field] === "") {
+//           document.getElementById(field).style.border = '1px solid red';
+//         } else {
+//           document.getElementById(field).style.border = '1px solid initial';
+//         }
+//       }
+//     } else {
+//       // If all fields are filled, navigate
+//       navigate('/business');
+//     }
+//   }
